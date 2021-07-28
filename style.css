@@ -1,0 +1,173 @@
+/* No:0 ==================================================
+		>>> Common Style start<<<
+==========================================================*/
+body{font-family: 'Merriweather', serif;font-size: 15px; font-weight: 400; line-height: 1.6em;}
+p{font-weight: 400; margin-bottom: 15px;}
+h1, h2, h3, h4, h5, h6{font-weight: 700;margin-bottom: 15px}
+a{transition: 0.5s}
+ul{list-style:none; margin:0; padding:0;}
+input[type=search]{ background:#333; color:#fff; padding:8px; border-radius:6px; border:none; }
+input[type=text]{ background:#333; color:#fff; padding:8px; border-radius:6px; border:none; }
+input[type=email]{ background:#333; color:#fff; padding:8px; border-radius:6px; border:none; }
+input[type=submit]{ cursor: pointer; transition: 0.5s; background:#3bafbe; color:#fff; padding:9px 15px; border-radius:6px; border:none; }
+input[type=submit]:hover{ background:#ee802f; }
+.readmore{ display:inline-block; padding:10px 15px; background:#3bafbe; color:#fff; border:none; border-radius:20px; text-decoration:none; }
+.readmore:hover{ background:#262626; }
+.slicknav_menu{display: none;}
+
+#scrollUp {
+    background-image: url("images/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+	text-indent:-99999px;
+}
+
+
+/*===Common Style start=== */
+
+
+/* No:1 ==================================================
+		>>>header-area start<<<
+==========================================================*/
+.header-area{ width:100%; overflow:hidden; border-top:5px solid #3bafbe; border-bottom:1px solid #e2e2e2;}
+.header-area .social-links{ width:100%; overflow:hidden; text-align:right;}
+.header-area .social-links ul{list-style:none; margin:0; padding:0; margin-top:15px;}
+.header-area .social-links ul li{ display:inline-block; margin-right:10px;}
+.header-area .social-links ul li a{ display:inline-block; background:#1f1f1f; color:#fff; height:32px; width:32px; text-align:center;padding-top:5px;border-radius:50%;}
+.header-area .social-links ul li a:hover{background:#ee802f; }
+
+.header-area .logo-area{width:100%;overflow:hidden; clear:both;margin-top:30px;}
+.header-area .logo-area img{ padding-bottom:20px;}
+
+.header-area .search-box{ width:100%; overflow:hidden; text-align:right; }
+.header-area .search-box form{ width:100%; overflow:hidden; margin-top:25px;}
+.header-area .search-box input[type=search]{ background:#333; color:#fff; padding:8px; border-radius:6px; border:none; }
+.header-area .search-box input[type=submit]{ background:#3bafbe; color:#fff; padding:9px 15px; border-radius:6px; border:none; }
+.header-area .search-box input[type=submit]:hover{ background:#ee802f; }
+
+.header-area .nav-menu{ width:100%; overflow:hidden; text-align:right; }
+.header-area .nav-menu ul{  list-style:none; margin:0; padding:0; }
+.header-area .nav-menu ul li{ display:inline-block; margin-right:20px; margin-top:30px; margin-bottom:30px; }
+.header-area .nav-menu ul li a{ color:#999999; text-decoration:none; font-size:15px;  text-transform:uppercase;}
+.header-area .nav-menu ul li a:hover{ color:#3bafbe; font-weight:700;   }
+
+/*===header-area end===*/
+
+
+/* No:2 =====================================================
+		>>>slider-area start<<<
+=============================================================*/
+.slider-area{width:100%; overflow:hidden;  margin:0;}
+.slider-area .slider-img{width:100%;}
+.slider-area .slider-img img{display:block; width:530px; height:auto; margin:20px auto; }
+.slider-area .slider-textarea{ width:100%; overflow:hidden; }
+.slider-area .slider-text{ width:620px; margin:auto; padding-bottom:10px; }
+.slider-area .slider-text h2{ margin-top:112px; text-transform:uppercase; font-size:26px; }
+.slider-area .slider-text p{  }
+.slider-area .slider-text .readmore{ padding:10px 15px; background:#3bafbe; color:#fff; border:none; border-radius:20px; text-decoration:none; }
+.slider-area .slider-text .readmore:hover{ background:#262626; }
+
+.bx-wrapper .bx-pager { text-align:right;}
+.bx-wrapper .bx-pager.bx-default-pager a {background: #34bed8;  width: 20px;height: 20px;  border-radius:50%; }
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {background: #b7d1e8;  border:3px solid #17d0cb }
+
+/*===slider-area end=== */
+
+
+/*  No:3============================================================
+		 >>>service-area start<<<
+==============================================================*/
+.service-area{ width:100%; overflow:hidden;}
+.service-area .service-item{ width:100%; overflow:hidden; padding:30px 0;}
+.service-area .service-img{ width:100%; overflow:hidden; }
+.service-area .service-img img{ width:300px; height:160px; }
+.service-area .service-text{ width:100%; overflow:hidden; }
+.service-area .service-text h3{ margin:30px 0; text-transform:uppercase; }
+.service-area .service-text p{ margin-bottom:20px; }
+.service-area .service-text a{ display:inline-block; }
+
+
+/*===service-area end=== */
+
+
+/*  No:4 =========================================================
+		>>>blog-area start<<<
+================================================================= */
+.bolg-area{width:100%; overflow:hidden; border-top:1px solid #e2e2e2;}
+.bolg-area .blog-headign{width:100%; overflow:hidden;}
+.bolg-area .blog-headign h4{ color:797979; font-style:italic; text-align:center; margin-top:80px; margin-bottom:60px;}
+
+.bolg-area .blog-item{ width:100%; overflow:hidden; margin-bottom:30px; }
+.bolg-area .blog-img{ float:left; margin-right:10px;  }
+.bolg-area .blog-img img{ width:80px; height:80px;  }
+.bolg-area .blog-text{ overflow:hidden; }
+.bolg-area .blog-text h5 a{ font-size:14px; text-decoration:none; color:#3bafbe; }
+.bolg-area .blog-text h5 a:hover{ text-decoration:underline;  }
+.bolg-area .blog-text p{ font-size:12px; line-height:1.3em;  }
+
+
+/*===blog-area end=== */
+
+
+/* No:5 =============================================================
+		>>>footer-area start<<<
+=================================================================*/
+.footer-area{width:100%; overflow:hidden; background:#252525; color:#fff; padding-bottom:20px;}
+.footer-area h5{text-transform:capitalize; padding-top:35px; }
+.footer-area ul li {border-bottom:1px dotted #fff; margin-bottom:10px; }
+.footer-area ul li a{display:inline-block; color:#3bafbe; text-decoration:none; padding-bottom:5px; }
+.footer-area ul li a:hover{text-decoration:underline; font-weight:700;   }
+
+.footer-area .contact-details{width:100%; overflow:hidden;}
+.footer-area .contact-details p a{text-decoration:none; color:#3bafbe; }
+.footer-area .contact-details p a:hover{text-decoration:underline; font-weight:700; }
+
+.footer-area .contact input{ display:block; margin-bottom:15px;}
+
+
+
+
+/* ===footer-area end===*/
+
+
+/* No:6================================================================
+		>>>copyright-area start<<<
+================================================================ */
+.copyright-area{ width:100%; overflow:hidden; background:#1A1A1A; color:#fff; padding:30px 0;}
+.copyright-area .col-md-6:last-child p{ text-align:right; }
+
+
+/* ===copyright-area end===*/
+
+
+
+
+/* No:6================================================================
+		>>>media query-area start<<<
+================================================================ */
+
+@media only screen and (min-width:200px) and (max-width: 768px){
+.header-area .social-links{ text-align:center;}	
+.header-area .logo-area{ text-align:center;}	
+.header-area .search-box{ text-align:center; margin-bottom:30px; }	
+.header-area .nav-menu{ display:none; }
+.slider-area .slider-img img{display:block; width:430px; height:auto; margin:20px auto; }
+.slider-area .slider-text{ width:90%; margin:auto; padding-bottom:10px; }
+.footer-area .contact input{ display:block;}
+.copyright-area .col-md-6:last-child p{ text-align:center; }
+.copyright-area .col-md-6:first-child p{ text-align:center; }
+.slicknav_menu{display: block; background: #2fa0c1; }
+.slicknav_btn{ background-color: #3d61bd; }
+.slicknav_nav a{ text-transform: uppercase;}
+.slicknav_nav a:hover{ background: #ffd765; text-transform: uppercase;}
+.service-area .service-img{text-align:center; }
+
+}
+
+
+
+
